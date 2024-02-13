@@ -142,11 +142,11 @@ footer {
     padding: 0px 20px;
     display: flex;
     justify-content: right;
-    align-items:last baseline;
+    align-items: last baseline;
     position: fixed;
     width: 100%;
     bottom: 0;
-    height: 15vh;
+    height: 12vh;
     font-size: 25px;
     font-weight: bold;
     font-family: sans-serif;
