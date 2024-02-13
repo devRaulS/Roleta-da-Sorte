@@ -110,19 +110,6 @@ header {
     transform: rotate(315deg);
 }
 
-/*.arrow {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #fff;
-}
-
-.arrow::before {
-    content: "\1F817";
-    font-size: 90px;
-}
-*/
 #spin {
     position: absolute;
     bottom: 6%;
@@ -155,11 +142,11 @@ footer {
     padding: 0px 20px;
     display: flex;
     justify-content: right;
-    align-items:center;
+    align-items:last baseline;
     position: fixed;
     width: 100%;
-    bottom: 0%;
-    height: 15vh;
+    bottom: 0;
+    height: 20vh;
     font-size: 25px;
     font-weight: bold;
     font-family: sans-serif;
