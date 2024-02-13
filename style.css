@@ -30,7 +30,7 @@ header {
     width: 100%;
     top: 0%;
     height: 30vh;
-    font-size: 42px;
+    font-size: 35px;
     font-weight: bold;
     font-family: sans-serif;
     text-align: center;
@@ -38,8 +38,8 @@ header {
 }
 
 .container {
-    width: 400px;
-    height: 400px;
+    width: 365px;
+    height: 365px;
     background-color: #ccc;
     border-radius: 50%;
     border: 10px solid #dde;
@@ -52,7 +52,7 @@ header {
 
 .container div {
     height: 50%;
-    width: 160px;
+    width: 150px;
     position: absolute;
     clip-path: polygon(100% 0, 50% 100%, 0 0);
     transform: translateX(-50%);
@@ -65,7 +65,7 @@ header {
     font-weight: bold;
     font-family: sans-serif;
     color: #fff;
-    left: 110px;
+    left: 100px;
 
 
 }
@@ -125,7 +125,7 @@ header {
 */
 #spin {
     position: absolute;
-    top: 80%;
+    bottom: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
