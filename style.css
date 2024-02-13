@@ -22,14 +22,14 @@ header {
 }
 
 header {
-    padding: 0px 20px;
+    padding: 10px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
     width: 100%;
     top: 0%;
-    height: 30vh;
+    height: 20vh;
     font-size: 30px;
     font-weight: bold;
     font-family: sans-serif;
@@ -46,7 +46,7 @@ header {
     position: relative;
     overflow: hidden;
     transition: 5s;
-    top: 0;
+    top: -50;
     border-style: dotted;
 }
 
@@ -146,20 +146,20 @@ header {
 }
 
 footer {
-    background: #e04399;
+    background: #9c27b0;
     color: #e2e2e2;
-    background: linear-gradient(#305c92, #05a5f5);
+    background: linear-gradient(#3f51b5, #05a5f5);
 }
 
 footer {
     padding: 0px 20px;
     display: flex;
     justify-content: right;
-    align-items: center;
+    align-items:center;
     position: fixed;
     width: 100%;
     bottom: 0%;
-    height: 8vh;
+    height: 15vh;
     font-size: 25px;
     font-weight: bold;
     font-family: sans-serif;
