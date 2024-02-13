@@ -38,8 +38,8 @@ header {
 }
 
 .container {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     background-color: #ccc;
     border-radius: 50%;
     border: 10px solid #dde;
@@ -47,11 +47,12 @@ header {
     overflow: hidden;
     transition: 5s;
     top: 0;
+    border-style: dotted;
 }
 
 .container div {
     height: 50%;
-    width: 150px;
+    width: 160px;
     position: absolute;
     clip-path: polygon(100% 0, 50% 100%, 0 0);
     transform: translateX(-50%);
@@ -64,7 +65,8 @@ header {
     font-weight: bold;
     font-family: sans-serif;
     color: #fff;
-    left: 90px;
+    left: 110px;
+
 
 }
 
@@ -123,7 +125,7 @@ header {
 */
 #spin {
     position: absolute;
-    top: 57%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
@@ -131,13 +133,14 @@ header {
     text-transform: uppercase;
     border: 5px solid #fff;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 50px;
     color: #a2a2a2;
-    width: 70px;
-    height: 70px;
+    width: 240px;
+    height: 80px;
     font-family: sans-serif;
-    border-radius: 50%;
+    border-radius: 25px;
     cursor: pointer;
     outline: none;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    text-align: center;
 }
