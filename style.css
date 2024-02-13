@@ -125,7 +125,7 @@ header {
 */
 #spin {
     position: absolute;
-    bottom: 0%;
+    bottom: 6%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
@@ -143,4 +143,26 @@ header {
     outline: none;
     letter-spacing: 2px;
     text-align: center;
+}
+
+footer {
+    background: #e04399;
+    color: #e2e2e2;
+    background: linear-gradient(#305c92, #05a5f5);
+}
+
+footer {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    height: 8vh;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: left;
+
 }
