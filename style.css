@@ -59,14 +59,13 @@ header {
     transform-origin: bottom;
     text-align: center;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     font-size: 15px;
     font-weight: bold;
     font-family: sans-serif;
     color: #fff;
     left: 100px;
-
 
 }
 
@@ -96,7 +95,7 @@ header {
 }
 
 .container .six {
-    background-color: #795548;
+    background-color: #50a2ba;
     transform: rotate(225deg);
 }
 
@@ -121,7 +120,7 @@ header {
     border: 5px solid #fff;
     font-weight: bold;
     font-size: 30px;
-    color: #a2a2a2;
+    color: #000000;
     width: 150px;
     height: 45px;
     font-family: sans-serif;
